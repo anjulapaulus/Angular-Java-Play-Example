@@ -1,13 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { FormGroup, FormControl } from '@angular/forms';
-const httpOptions = {
-  headers: new HttpHeaders({ 
-    'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin':'*',
-    responseType: 'text'
-  })
-};
+
 
 @Component({
   selector: 'app-root',
